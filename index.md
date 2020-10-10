@@ -1,6 +1,6 @@
 ## Welcome to Airport Battle (alpha)
 
-Do you have what it takes to handle a lot traffic? Try it out. Aiport bottle let's you manage an airport as an ATC (air traffic controller)
+Do you have what it takes to handle a lot traffic? Try it out. Aiport battle let's you manage an airport as an ATC (air traffic controller)
 
 ## Current Stage
 Game is currently in alpha stage and under heavy development.
