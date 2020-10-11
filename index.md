@@ -7,8 +7,13 @@ Game is currently in alpha stage and under heavy development.
 
 ## The Game
 
-<iframe src="airportbattle/index.html" style="width: 1200px; height: 800px; border: 0px; position: absolute; left: 0; right: 0; margin: auto;"></iframe>
-<div style="margin-top: 850px; clear:both;"></div>
+<iframe src="airportbattle/index.html" style="width: 1400px; height: 900px; border: 0px; position: absolute; left: 0; right: 0; margin: auto;" allowfullscreen></iframe>
+<div style="margin-top: 950px; clear:both;"></div>
+
+Tips:
+- use mouse drag for camera movement and mouse wheel for zoom, use key 'f' for fullscreen
+- you can toggle radar on/off 
+- aircraft are selectable by click on the map and the radar
 
 ###  Contact or Support
 
