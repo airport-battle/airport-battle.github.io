@@ -12,11 +12,12 @@ Game is currently in alpha stage and under heavy development.
         var htmlString = '<iframe src="airportbattle/index.html" style="width: 1400px; height: 900px; border: 0px; position: absolute; left: 0; right: 0; margin: auto;" allow="autoplay; fullscreen"></iframe>'
         var div = document.getElementById( 'game-container' )
         div.insertAdjacentHTML( 'beforeend', htmlString )
+        div.style.height = "900px";
         document.getElementById('game-loader').remove()
     }   
 </script>
 <a id="game-loader" onclick="loadFrame()" style="border: 1px solid black;padding: 10px;margin: 5px;background-color: red;color: white;cursor: pointer;">Load Game</a>
-<div id="game-container" style="display:block; height: 900px"></div>
+<div id="game-container" style="display:block; height: 0px"></div>
 
 Tips:
 - use mouse drag for camera movement and mouse wheel for zoom, use key 'f' for fullscreen
