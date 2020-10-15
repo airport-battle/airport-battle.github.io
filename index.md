@@ -7,7 +7,7 @@ Game is currently in alpha stage and under heavy development.
 
 ## The Game
 
-<iframe src="airportbattle/index.html" style="width: 1400px; height: 900px; border: 0px; position: absolute; left: 0; right: 0; margin: auto;" allowfullscreen></iframe>
+<iframe src="airportbattle/index.html" style="width: 1400px; height: 900px; border: 0px; position: absolute; left: 0; right: 0; margin: auto;" allow="autoplay; fullscreen"></iframe>
 <div style="margin-top: 950px; clear:both;"></div>
 
 Tips:
