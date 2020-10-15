@@ -7,8 +7,16 @@ Game is currently in alpha stage and under heavy development.
 
 ## The Game
 
-<iframe src="airportbattle/index.html" style="width: 1400px; height: 900px; border: 0px; position: absolute; left: 0; right: 0; margin: auto;" allow="autoplay; fullscreen"></iframe>
-<div style="margin-top: 950px; clear:both;"></div>
+<script>
+    var loadFrame = function() {
+        var htmlString = '<iframe src="airportbattle/index.html" style="width: 1400px; height: 900px; border: 0px; position: absolute; left: 0; right: 0; margin: auto;" allow="autoplay; fullscreen"></iframe><div style="margin-top: 950px; clear:both;"></div>'
+        var div = document.getElementById( 'game-container' )
+        div.insertAdjacentHTML( 'beforeend', htmlString )
+        document.getElementById('game-loader').remove()
+    }   
+</script>
+<a id="game-loader" onclick="loadFrame()" style="border: 1px solid black;padding: 10px;margin: 5px;background-color: redcolor: white;cursor: pointer;">Load Game</a>
+<span id="game-container"></span>
 
 Tips:
 - use mouse drag for camera movement and mouse wheel for zoom, use key 'f' for fullscreen
